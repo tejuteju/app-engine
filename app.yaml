@@ -1,6 +1,6 @@
-runtime: .python
-vm: .true
-entrypoint: .gunicorn.-b.:$PORT.Untitled44:app
+runtime: python
+vm: true
+entrypoint: gunicorn-b:$PORT.Untitled44:app
 
 runtime_config: 
- python_version: .3
+ python_version: 3
