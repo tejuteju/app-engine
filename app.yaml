@@ -1,6 +1,5 @@
-runtime: python
-vm: true
-entrypoint: gunicorn-b:$PORT.Untitled44:app
+runtime: php
+env: flex
 
 runtime_config: 
- python_version: 3
+ document_root: web
